@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@400;700&family=Pacifico&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: rgb(90,90,90);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Pacifico', serif;
+  color: #445E93;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #F93943;
+  opacity: 0.7;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.box-white {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+  width: 60vw;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+ul.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.list-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-large {
+  font-size: 3rem;
+}
+
+#social-links li {
+  margin: 0 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #06D6A0;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+}
+.btn:hover {
+  box-shadow: 0 3px 8px rgba(0,0,0,0.4);
+  transform: scale(1.05);
+}
+
+.margin-bottom-2 {
+  margin-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-rounded {
+  border-radius: 50%;
+}
+
+#profil-pic {
+  width: 100px;
+}
+
+/* blue: #445E93 */
+/* green: #708D81 */
+/* red: #F93943 */
